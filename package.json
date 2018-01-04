@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MarcelloCai/gulp-rev-urlhash.git"
+    "url": "git+https://github.com/krachmueller/gulp-rev-urlhash.git"
   },
   "keywords": [
     "gulp",
     "rev",
     "urlhash"
   ],
-  "author": "MarcelloCai",
+  "author": "krachmueller",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MarcelloCai/gulp-rev-urlhash/issues"
+    "url": "https://github.com/krachmueller/gulp-rev-urlhash/issues"
   },
-  "homepage": "https://github.com/MarcelloCai/gulp-rev-urlhash#readme",
+  "homepage": "https://github.com/krachmueller/gulp-rev-urlhash#readme",
   "dependencies": {
     "gulp-util": "^3.0.7",
     "object-assign": "^4.0.1",
