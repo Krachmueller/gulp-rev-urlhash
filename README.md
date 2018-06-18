@@ -1,6 +1,6 @@
-# gulp-rev-urlhash
+# yt-gulp-rev-urlhash
 
-Static asset revisioning by create manifest.json, you can get assets uri like xxx.js?v=hs27skvi from manifest.json
+Static asset revisioning creating a rev-manifest.json, which contains assets uri's like `../test-yours-truly.html?v=hs27skvi` mapped to the original url ( `../test-yours-truly.html`). This mapping is used to add those hashes to all occurrences of the dedicated url for cache-busting. This is done at build-time and dynamically in the app.
 
 It comes from [gulp-rev](https://www.npmjs.com/package/gulp-rev), and **this plugin will not change your dist filename, but add url query v=XXXXXXXX in the manifest.json instead**.
 
